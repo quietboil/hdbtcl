@@ -128,10 +128,12 @@ that uses `hdbtcl`.
 
 ## Documentation
 
-The complete documentation of the API offered by `hdbtcl` can be found in the [docs](docs) directory.
+The complete [documentation][1] of the API offered by `hdbtcl` can be found in the [docs](docs) directory.
 
 ## Final Note
 
 It appears that at the moment 32-bit Windows version of `libdbcapiHDB.dll` might have some issues processing LOB data.
 None of the LOB tests in `hdbtcl` test suite were successfull. The same tests complete successfully in 64-bit
 environments (on both Windows and Linux).
+
+[1]: <https://quietboil.github.io/hdbtcl>
